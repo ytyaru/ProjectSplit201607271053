@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7f6230d4-ae52-4cf6-90a6-33ccf41869ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{09655752-c11c-4b23-b725-fa17df74cdde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Window1">
+      <UniqueIdentifier>{0fcfbf2b-1a53-4f9d-afe2-d99451cea0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Window1\Initialize">
+      <UniqueIdentifier>{63ed5d9a-b4ed-4efc-9a38-9387d74e4980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Window1\Keyboard">
+      <UniqueIdentifier>{d73df88a-2b03-43b9-84a8-060cfffe1682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\MultiWindow">
+      <UniqueIdentifier>{b98ced79-f2c5-4db8-b489-ff2d5f739910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\PartWndProc">
+      <UniqueIdentifier>{00b988bf-c625-4cb7-97b3-bb996c5436ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Framework\MultiWindow\IWndProc.h">
+      <Filter>Framework\MultiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\MultiWindow\WndClassRegister.h">
+      <Filter>Framework\MultiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\MultiWindow\WndProcMapper.h">
+      <Filter>Framework\MultiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\PartWndProc\Window.h">
+      <Filter>Framework\PartWndProc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\PartWndProc\IPartWndProc.h">
+      <Filter>Framework\PartWndProc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Main\Window1\Window1.h">
+      <Filter>Main\Window1</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Main\Window1\Initialize\InitializeWndProc.h">
+      <Filter>Main\Window1\Initialize</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Main\Window1\Keyboard\KeyboardWndProc.h">
+      <Filter>Main\Window1\Keyboard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Framework\MultiWindow\WndClassRegister.cpp">
+      <Filter>Framework\MultiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framework\MultiWindow\WndProcMapper.cpp">
+      <Filter>Framework\MultiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framework\PartWndProc\Window.cpp">
+      <Filter>Framework\PartWndProc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main\Program.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main\Window1\Window1.cpp">
+      <Filter>Main\Window1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main\Window1\Initialize\InitializeWndProc.cpp">
+      <Filter>Main\Window1\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main\Window1\Keyboard\KeyboardWndProc.cpp">
+      <Filter>Main\Window1\Keyboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
